@@ -5,15 +5,156 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Arne Sierens // Web developer</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Alice|Lato:300,400" rel="stylesheet">
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-family: 'Lato', Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      font-size: 1em;
+      color: #444;
+      background-color: #fff;
+      box-sizing: border-box;
+
+      // Only for mobile devices
+      -webkit-text-size-adjust: 100%;
+         -moz-text-size-adjust: 100%;
+          -ms-text-size-adjust: 100%;
+              text-size-adjust: 100%;
+    }
+
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+
+    body {
+      line-height: 1.6;
+    }
+
+    a {
+      display: inline-block;
+      color: #222;
+      font-weight: 400;
+      text-decoration: none;
+      cursor: pointer;
+      border-bottom: 2px solid #f05f68;
+      padding: 0 .1em;
+      transition: all .2s ease-out;
+    }
+
+    a:hover, a:active {
+      color: #fff;
+      background-color: #f05f68;
+    }
+
+    a:focus {
+      outline: 0;
+      color: #fff;
+      background-color: #f05f68;
+    }
+
+    strong {
+      font-weight: 400;
+    }
+
+    h1, h2 {
+      color: #222;
+    }
+
+    h1 {
+      margin: 20px 0;
+    }
+
+    h2 {
+      margin: 30px 0 5px;
+      font-size: 1.125em;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    ::-moz-selection {
+      background-color: #fcf4aa;
+    }
+
+    ::selection {
+      background-color: #fcf4aa;
+    }
+
+    .wrapper {
+      margin: 40px 20px;
+      max-width: 500px; /* 50 - 75 characters */
+    }
+
+
+    /* Header */
+
+    .h-link {
+      font-family: 'Alice', Georgia, serif;
+      font-weight: 400;
+      border: 0;
+      padding: 0;
+    }
+
+    .h-link:hover, .h-link:active {
+      color: #222;
+      background-color: #fff;
+    }
+
+    .h-link:focus {
+      color: #222;
+      background-color: #fcf4aa;
+    }
+
+    .h-double-slash {
+      color: #f05f68;
+      display: inline-block;
+      margin: 0 8px;
+    }
+
+
+    /* Hobbies */
+
+    .hobbies > li {
+      display: inline-block;
+    }
+
+
+    /* Elsewhere */
+
+    .social-item {
+      display: inline-block;
+    }
+
+    .social-item + .social-item::before {
+      content: '\002F';
+      color: #999;
+      padding: 0 4px;
+    }
+  </style>
 </head>
 
 <body>
-  <div class="content">
+  <div class="wrapper">
     <header>
       <h1>
-        <a href="/">
+        <a href="/" class="h-link">
           Arne Sierens
-          <span>//</span>
+          <span class="h-double-slash">//</span>
           Web developer
         </a>
       </h1>
@@ -33,12 +174,9 @@
     <section>
         <h2>Hobbies</h2>
 
-        <ul>
+        <ul class="hobbies">
           <li>
             Family and friends.
-          </li>
-          <li>
-            Travelling.
           </li>
           <li>
             <a href="https://www.last.fm/user/arnesierens" title="View my music stats." rel="me">Music</a>.
@@ -46,6 +184,9 @@
           <li>Series.</li>
           <li>
             <a href="https://www.goodreads.com/arnesierens" title="View the books I've read." rel="me">Books</a>.
+          </li>
+          <li>
+            Travelling.
           </li>
           <li>Soccer &amp; tennis.</li>
         </ul>
@@ -55,22 +196,22 @@
       <h2>Elsewhere</h2>
 
       <ul>
-        <li>
+        <li class="social-item">
           <a href="https://twitter.com/arnesierens" rel="me">Twitter</a>
         </li>
-        <li>
+        <li class="social-item">
           <a href="https://instagram.com/arnesierens" rel="me">Instagram</a>
         </li>
-        <li>
+        <li class="social-item">
           <a href="https://www.linkedin.com/in/arnesierens/" rel="me">LinkedIn</a>
         </li>
-        <li>
+        <li class="social-item">
           <a href="https://github.com/arnesierens" rel="me">GitHub</a>
         </li>
-        <li>
+        <li class="social-item">
           <a href="https://www.pinterest.com/sierensarne/" rel="me">Pinterest</a>
         </li>
-        <li>
+        <li class="social-item">
           <a href="https://www.facebook.com/sierensarne" rel="me">Facebook</a>
         </li>
       </ul>
