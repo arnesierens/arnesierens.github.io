@@ -139,3 +139,13 @@ ul {
   color: #999;
   padding: 0 4px;
 }
+
+
+/* Media query */
+
+@media (min-width: 36.875rem) { /* 590 / 16 */
+
+  html {
+    font-size: 1.125em; /* 18 / 16 */
+  }
+}
