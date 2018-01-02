@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/* Simple reset */
+
+html, body, p, ul, li, div, span, h1, h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+html {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: #444;
+  background-color: #fff;
+  box-sizing: border-box;
+
+  /* Only for mobile devices */
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1.6;
+}
+
+a {
+  display: inline-block;
+  color: #222;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 2px solid #f05f68;
+  padding: 0 .1em;
+  transition: all .2s ease-out;
+}
+
+a:hover, a:active {
+  color: #fff;
+  background-color: #f05f68;
+}
+
+a:focus {
+  outline: 0;
+  color: #fff;
+  background-color: #f05f68;
+}
+
+strong {
+  font-weight: 400;
+}
+
+h1, h2 {
+  color: #222;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 2em;
+}
+
+h2 {
+  margin: 30px 0 5px;
+  font-size: 1.125em;
+  font-weight: 400;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+::-moz-selection {
+  background-color: #fcf4aa;
+}
+
+::selection {
+  background-color: #fcf4aa;
+}
+
+.wrapper {
+  margin: 40px 20px;
+  max-width: 500px; /* 50 - 75 characters */
+}
+
+
+/* Header */
+
+.h-link {
+  font-family: 'Alice', Georgia, serif;
+  font-weight: 400;
+  border: 0;
+  padding: 0;
+}
+
+.h-link:hover, .h-link:active {
+  color: #222;
+  background-color: #fff;
+}
+
+.h-link:focus {
+  color: #222;
+  background-color: #fcf4aa;
+}
+
+.h-double-slash {
+  color: #f05f68;
+  display: inline-block;
+  margin: 0 8px;
+}
+
+
+/* Hobbies */
+
+.hobbies > li {
+  display: inline-block;
+}
+
+
+/* Elsewhere */
+
+.social-item {
+  display: inline-block;
+}
+
+.social-item + .social-item::before {
+  content: '\002F';
+  color: #999;
+  padding: 0 4px;
+}
