@@ -91,7 +91,7 @@ ul {
 
 .wrapper {
   margin: 40px 20px;
-  max-width: 500px; /* 50 - 75 characters */
+  max-width: 31.25rem; /* 500 / 16 (50 - 75 characters) */
 }
 
 
