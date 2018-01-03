@@ -58,19 +58,19 @@ strong {
   font-weight: 400;
 }
 
-h1, h2 {
-  color: #222;
-}
-
 h1 {
   margin: 20px 0;
   font-size: 2em;
+  color: #222;
 }
 
 h2 {
   margin: 30px 0 5px;
-  font-size: 1.125em;
+  font-size: .875em;
+  color: #f05f68;
   font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .05em;
 }
 
 p {
