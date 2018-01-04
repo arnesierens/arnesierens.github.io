@@ -135,7 +135,7 @@ ul {
 }
 
 .social-item + .social-item::before {
-  content: '\002F';
+  content: '\00b7';
   color: #999;
   padding: 0 4px;
 }
