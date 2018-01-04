@@ -39,6 +39,7 @@ a {
   text-decoration: none;
   cursor: pointer;
   border-bottom: 2px solid #f05f68;
+  border-radius: 2px;
   padding: 0 .1em;
   transition: all .2s ease-out;
 }
