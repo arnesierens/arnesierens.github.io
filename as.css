@@ -59,13 +59,13 @@ strong {
 }
 
 h1 {
-  margin: 20px 0;
   font-size: 2em;
+  margin: .625em 0;
   color: #222;
 }
 
 h2 {
-  margin: 30px 0 5px;
+  margin: 1.875em 0 .3125em;
   font-size: .875em;
   color: #f05f68;
   font-weight: 400;
@@ -74,7 +74,7 @@ h2 {
 }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
 }
 
 ul {
@@ -90,7 +90,7 @@ ul {
 }
 
 .wrapper {
-  margin: 40px 20px;
+  margin: 2.5rem 1.25rem;
   max-width: 31.25rem; /* 500 / 16 (50 - 75 characters) */
 }
 
@@ -143,9 +143,13 @@ ul {
 
 /* Media query */
 
-@media (min-width: 36.875rem) { /* 590 / 16 */
+@media (min-width: 40.78125rem) { /* 652.5 / 16 */
 
   html {
     font-size: 1.125em; /* 18 / 16 */
+  }
+
+  .wrapper {
+    margin: 2.5em;
   }
 }
