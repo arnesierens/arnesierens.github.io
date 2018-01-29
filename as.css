@@ -44,12 +44,6 @@ a:hover, a:active {
   border-bottom-width: 2px;
 }
 
-a:focus {
-  outline: 0;
-  color: #fff;
-  background-color: #37dac3;
-}
-
 strong {
   font-weight: 400;
 }
@@ -98,6 +92,7 @@ ul {
   font-family: 'Alice', Georgia, serif;
   font-weight: 400;
   color: #fff;
+  display: inline-block;
   border: 0;
 }
 
