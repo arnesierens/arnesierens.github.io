@@ -11,7 +11,7 @@ html, body, p, ul, li, div, span, h1, h2 {
 
 html {
   font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1em;
   color: #919191;
   background-color: #141414;
@@ -34,7 +34,7 @@ body {
 
 a {
   color: #999;
-  font-weight: 300;
+  font-weight: 400;
   text-decoration: none;
   cursor: pointer;
   border-bottom: 1px solid #999;
@@ -60,7 +60,7 @@ h1 {
 h2 {
   margin-top: 1.875em;
   color: #fff;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 p, section {
